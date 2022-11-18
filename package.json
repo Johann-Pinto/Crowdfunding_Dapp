@@ -1,0 +1,39 @@
+{
+  "name": "cdfd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.6",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "dotenv": "^16.0.3",
+    "ipfs-core": "^0.17.0",
+    "ipfs-http-client": "^58.0.0",
+    "ipfs-mini": "^1.1.5",
+    "next": "^13.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-sticky-header": "^0.2.0",
+    "react-toastify": "^9.0.8",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "babel-plugin-styled-components": "^2.0.7",
+    "chai": "^4.3.6",
+    "eslint": "8.23.1",
+    "eslint-config-next": "^13.0.4",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.1"
+  }
+}
